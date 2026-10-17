@@ -1,0 +1,5 @@
+# Python dependencies for the IPF reconciliation step (Stage 1b)
+# Install with:  pip install -r requirements-python.txt
+numpy>=1.23
+pandas>=1.5
+jupyter>=1.0      # only needed to run the .ipynb notebook version

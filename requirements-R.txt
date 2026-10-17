@@ -1,0 +1,28 @@
+# R package dependencies
+# -----------------------
+# Install from an R session with:
+#   install.packages(c("here","tidyverse","brms","cmdstanr","tidybayes",
+#                       "broom.mixed","fastDummies","arrow","ggplot2",
+#                       "patchwork","viridis","gridExtra","readxl","readr"))
+#
+# cmdstanr is installed from the Stan R-universe, not CRAN:
+#   install.packages("cmdstanr", repos = c("https://stan-dev.r-universe.dev", getOption("repos")))
+#   cmdstanr::install_cmdstan()      # one-time CmdStan toolchain install
+#
+# Core
+here
+tidyverse
+brms            # >= 2.20 used to generate the final Stan code
+cmdstanr        # back-end used to fit the custom poststratification models
+tidybayes
+broom.mixed
+fastDummies
+arrow           # reading the Experian COUNTY_2021.parquet file
+
+# Figures
+ggplot2
+patchwork
+viridis
+gridExtra
+readxl
+readr

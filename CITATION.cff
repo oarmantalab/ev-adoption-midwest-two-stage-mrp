@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Potential for electric vehicle adoption in Midwest US States: A stated preference and two-stage MRP study"
+authors:
+  - family-names: Armantalab
+    given-names: Omid
+  - family-names: Ghosh
+    given-names: Riddhimoy
+  - family-names: Hawkins
+    given-names: Jason
+preferred-citation:
+  type: article
+  title: "Potential for electric vehicle adoption in Midwest US States: A stated preference and two-stage MRP study"
+  authors:
+    - family-names: Armantalab
+      given-names: Omid
+    - family-names: Ghosh
+      given-names: Riddhimoy
+    - family-names: Hawkins
+      given-names: Jason
+  journal: "Journal of Choice Modelling"
+  volume: 59
+  start: 100597
+  year: 2026
+  doi: "10.1016/j.jocm.2026.100597"
